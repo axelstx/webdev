@@ -101,7 +101,7 @@ li {
 .header__menu-list {
   display: flex;
   justify-content: space-between;
-  width: 595px;;
+  width: 595px;
 }
 
 .header__menu-list li:hover {
@@ -158,12 +158,13 @@ li {
   font-weight: bold;
   font-size: 64px;
   text-transform: uppercase;
+
 }
 
 .life__content-text p {
   margin-bottom: 28px;
   text-align: center;
-  line-height: 140%;
+  line-height: 25px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -442,6 +443,8 @@ li {
 .download {
   display: flex;
   justify-content: center;
+  height: 464px;
+  background-color: #F5F6F7;
 }
 
 .download__content {
@@ -524,4 +527,77 @@ li {
   height: 46px;
   width: 59px;
   background: #009CC2 url("assets/download/icons/android.svg") no-repeat 50% 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #000000;
+  height: 185px;
+}
+
+.footer__nav {
+  margin-top: 71px;
+  margin-left: 160px;
+  height: 20px;
+  width: 236px;
+}
+
+.footer__nav-list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer__nav-list li:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer__nav-list li:nth-child(2)::before {
+  content: "|";
+  position: absolute;
+  top: 6px;
+  left: 63px;
+  font-size: 9px;
+  color: #4e4e4e;
+}
+
+.footer__nav-list li:nth-child(2)::after {
+  content: "|";
+  position: absolute;
+  top: 6px;
+  right: 84px;
+  font-size: 9px;
+  color: #4e4e4e;
+}
+
+.footer__nav-list a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 60px;
+  left: 778px;
+}
+
+.footer__text {
+  margin-top: 74px;
+  margin-right: 160px;
+  height: 20px;
+  width: 170px;
+}
+
+.footer__text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #818181;
 }
