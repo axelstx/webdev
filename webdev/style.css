@@ -175,6 +175,7 @@ li {
   align-items: center;
   height: 46px;
   width: 184px;
+  cursor: pointer;
   color: #ffffff;
   background-color: #00afdb;
   font-weight: bold;
@@ -373,4 +374,67 @@ li {
 .impl-button {
   width: 180px;
   height: 46px;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  height: 524px;
+  background: url("assets/signup/pexels-christina-morillo-1181675\ 1.png") no-repeat;
+
+}
+
+.signup__content-title {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.signup__content-title h2 {
+  padding-left: 2px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.signup__content-form {
+  width: 406px;
+  height: 46px;
+}
+
+.signup__form {
+  display: flex;
+}
+
+.signup__form input {
+  height: 46px;
+  width: 340px;
+  outline: 0;
+  border: 0;
+}
+
+.signup__form input[placeholder] {
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3737377c;
+}
+
+.signup__form button {
+  height: 46px;
+  width: 66px;
+  background: #00afdb url("assets/signup/check-icon.svg") no-repeat 53% 50%;
+  border: 0;
+  outline: 0;
+}
+
+.signup__form button:hover {
+  background-color:#068bac;
+  cursor: pointer;
 }
