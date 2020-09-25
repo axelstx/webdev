@@ -1,2 +1,1 @@
-# axelstx-JS2020Q3
-Private repository for @axelstx
+# [WebDev site](https://axelstx.github.io/webdev/webdev/)
